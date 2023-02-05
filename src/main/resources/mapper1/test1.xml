@@ -6,6 +6,6 @@
 <!-- SQL Mapping -->
 <mapper namespace="com.test.test.test1.repository.test1Mapper">				
  	<select id="test1" resultType="String">
-    select id from test
+    select * from test2
   </select>
 </mapper>
